@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <title>Ивлев Данил - Сайт визитка</title>
+</head>
+<body>
+    <header>
+        <h1 id="sitev">Сайт-визитка</h1>
+        <nav>
+            <a href="#about">Обо мне</a>
+            <a href="#portfolio">Мои работы</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+    <div id="about">
+        <div class="about-content">
+            <h2>Обо мне</h2>
+            <p>Меня зовут Данил и я начинающий frontend разработчик, написал несколько пробных сайтов, которые вы можете увидеть перейдя к пункту "портфолио".
+                Еще я изучаю JavaScript (react, Mongosee, MongoDB)</p>
+             <img src="img/photo_2023-12-21_21-26-43.jpg" alt="Описание изображения">
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="portfolio-content">
+            <h2>Портфолио</h2>
+            <div class="work">
+                <a href="site-visitka/index.html"><img src="img/111.png" alt="Работа 1"></a>
+                <a href="site-visitka/index.html">
+                    <p>Тренировочный сайт-визитка</p></a>
+            </div>
+            <div class="work">
+                <a href="maketi/index.html"><img src="img/222.PNG" alt="Работа 2"></a>
+                <a href="maketi/index.html"><p>Сайт по продаже меда</p></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+         <h2>Обратная связь</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Отправить</button>
+            </form>
+        </div>
+     <footer>
+    <div id="social-icons">
+            <a href="https://web.telegram.org/k/" target="_blank"><img src="img/6214709_air_airplane_logo_paper_plane_icon.png" alt="Facebook"></a>
+            <a href="https://vk.com/feed" target="_blank"><img src="img/6214734_logo_vk_vkontakte_icon.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1000px;
+    margin: 40px auto;
+    
+}
+header{
+    padding: 20px;
+    background-color: orange;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color: white;
+    font: 20px Arial;
+    margin: 30px;
+    text-decoration: none;
+}
+img{
+    width: 560px;
+}
+.container{
+    display: flex;
+}
+.left{
+    width: 600px;
+    margin-right: 0px;
+    padding: 20px;
+    
+}
+.right{
+    width: 400px;
+    margin-left: 0px;
+    padding: 20px;
+    
+}
+table{
+    width: 560px;
+}
+thead{
+    background-color: gray;
+    text-align: center;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+footer{
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.back-button {
+    display: block;
+    margin-top: 20px; /* Регулируйте отступ в соответствии с вашим дизайном */
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #66b3ff;
+}
